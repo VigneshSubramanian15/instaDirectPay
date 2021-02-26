@@ -1,0 +1,95 @@
+@media (max-width: 768px) {
+    .section-1 {
+        .content {
+            .middle {
+                .button {
+                    display: none;
+                    margin-top: 0;
+                }
+                margin: 0 0 50px 0;
+                h3 {
+                    line-height: 0.3;
+                }
+                .dec {
+                    font-size: 20px;
+                    width: 500px;
+                }
+            }
+            .info {
+                width: 75vw;
+                .fragment {
+                    img {
+                        width: 50px;
+                    }
+                    div {
+                        span:nth-child(1) {
+                            font-size: 25px;
+                        }
+                        span:nth-child(2) {
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-3 {
+        height: 50vh;
+        .overlay {
+            h2 {
+                margin: 10px 10px 0px 10px;
+                padding: 10px 0 0 40px;
+                font-size: 25px;
+            }
+            p {
+                margin: 5px 10px;
+                padding: 0 0 0 40px;
+                font-size: 12px;
+            }
+        }
+    }
+    .section-4 {
+        min-height: 50vh;
+        .part {
+            height: 25vh;
+            padding: 10px;
+            .illustration {
+                position: absolute;
+                bottom: 0%;
+                left: 0;
+            }
+            .content {
+                h2 {
+                    margin: 0;
+                    font-size: 3.5vw;
+                }
+                p {
+                    width: 350px;
+                    margin-bottom: 5px;
+                    font-size: 1.5vw;
+                }
+            }
+        }
+    }
+    .section-5 {
+        min-height: 50vh;
+        .first {
+            min-height: 40vh;
+            .complex-card {
+                .wrapper {
+                    margin-top: 10px;
+                    h4 {
+                        font-size: 2vw;
+                    }
+                    .card {
+                        padding: 15px 10px;
+                    }
+                }
+            }
+        }
+        .second {
+            min-height: 10vh;
+        }
+    }
+}
+// @media (max-width: 576px)

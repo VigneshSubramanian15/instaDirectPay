@@ -1,0 +1,135 @@
+.admin {
+    background-color: #001692;
+    width: 100%;
+    overflow: hidden;
+    min-height: 100vh;
+    .content {
+        margin: 30px;
+        background-color: #fff;
+        border-radius: 40px;
+        padding: 40px;
+        min-height: calc(100vh - 70px);
+        position: relative;
+        .info-card {
+            cursor: pointer;
+            position: relative;
+            min-height: 200px;
+            padding: 30px;
+            border: solid 1px #cfcfcf;
+            border-radius: 40px;
+            margin-bottom: 20px;
+            background-color: #011792;
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #fff;
+            text-align: right;
+            .icon {
+                font-size: 3rem;
+                position: absolute;
+                top: -31px;
+                left: 35px;
+                background: #000f61;
+                border-radius: 30px;
+                padding: 0px 17px 10px 17px;
+            }
+            .value {
+                text-align: center;
+                font-size: 4rem;
+            }
+        }
+        .left-bottom {
+            background-image: linear-gradient(
+                to left bottom,
+                #8200ff,
+                #651ae7,
+                #4921cd,
+                #2f23b3,
+                #142199
+            );
+            span.icon {
+                background-image: linear-gradient(
+                    to left bottom,
+                    #8200ff,
+                    #651ae7,
+                    #4921cd,
+                    #2f23b3,
+                    #142199
+                );
+            }
+        }
+        .right-top {
+            background-image: linear-gradient(
+                to right top,
+                #8200ff,
+                #651ae7,
+                #4921cd,
+                #2f23b3,
+                #142199
+            );
+            .icon {
+                background-image: linear-gradient(
+                    to right top,
+                    #8200ff,
+                    #651ae7,
+                    #4921cd,
+                    #2f23b3,
+                    #142199
+                );
+            }
+        }
+        .right-bottom {
+            background-image: linear-gradient(
+                to right bottom,
+                #8200ff,
+                #651ae7,
+                #4921cd,
+                #2f23b3,
+                #142199
+            );
+            .icon {
+                background-image: linear-gradient(
+                    to right bottom,
+                    #8200ff,
+                    #651ae7,
+                    #4921cd,
+                    #2f23b3,
+                    #142199
+                );
+            }
+        }
+        .left-top {
+            background-image: linear-gradient(
+                to left top,
+                #8200ff,
+                #651ae7,
+                #4921cd,
+                #2f23b3,
+                #142199
+            );
+            .icon {
+                background-image: linear-gradient(
+                    to left top,
+                    #8200ff,
+                    #651ae7,
+                    #4921cd,
+                    #2f23b3,
+                    #142199
+                );
+            }
+        }
+    }
+}
+
+.view {
+    background-color: #011792;
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 20px;
+    font-size: 0.7rem !important;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.data-table-extensions-action {
+    display: none;
+}

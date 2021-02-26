@@ -1,0 +1,26 @@
+.upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    .success{
+        color: green;
+        font-weight: 600
+    }
+    .row {
+        width: 100%;
+        .dd-Container {
+            padding: 30px;
+            border: solid 1px;
+            border-radius: 10px;
+            height: 200px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

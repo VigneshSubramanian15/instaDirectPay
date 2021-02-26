@@ -1,0 +1,59 @@
+.transfer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    h1 {
+        margin: auto;
+    }
+    .send {
+        border: solid 1px #cfcfcf;
+        margin: 2rem;
+        padding: 30px 52px;
+        border-radius: 40px;
+        display: inline-block;
+        .input-field {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: column;
+            input {
+                height: 2.7rem;
+                border-radius: 20px;
+                border: solid 1px;
+                margin: 10px 0;
+            }
+            button {
+                border-radius: 20px;
+                background-color: #001692;
+            }
+        }
+    }
+    .sender {
+        div {
+            font-size: 1.2rem;
+            span {
+                font-weight: bolder;
+            }
+        }
+        .input-field {
+            margin: 5px;
+            label {
+                font-size: 1rem;
+                font-weight: bolder;
+                margin-bottom: 0px;
+            }
+            input {
+                padding: 0 15px;
+                outline: none;
+                margin: 5px 0;
+            }
+            small {
+                font-size: 0.8rem;
+                span {
+                    color: green;
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

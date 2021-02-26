@@ -1,0 +1,82 @@
+@media (max-width: 576px) {
+    .section-1 {
+        .nav .logo {
+            margin: 7px 10px;
+            span {
+                margin: 10px 7px !important;
+            }
+        }
+        .nav-list li {
+            margin: 10px 0 !important;
+        }
+        .content {
+            .middle {
+                .button {
+                    display: none;
+                    margin-top: 0;
+                }
+                margin: 0 0 10px 0;
+                h2 {
+                    // margin: 0;
+                    margin: 10px 10px;
+                }
+                h3 {
+                    line-height: 0;
+                    margin: 0;
+                }
+                .dec {
+                    font-size: 2.5vw;
+                    width: 250px;
+                    line-height: 1;
+                    margin: 20px 10px 10px 10px;
+                }
+            }
+            .info {
+                width: 75vw;
+                .fragment {
+                    margin: 0px 10px;
+                    img {
+                        width: 15px;
+                    }
+                    div {
+                        span:nth-child(1) {
+                            font-size: 10px;
+                        }
+                        span:nth-child(2) {
+                            font-size: 6px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .section-3 {
+        max-height: 350px;
+    }
+    .section-4 {
+        .part {
+            background-image: url("../../Images/creditcard.png");
+            background-size: 30%;
+            background-repeat: no-repeat;
+            background-position: 90% 90%;
+            img {
+                display: none;
+            }
+            .content {
+                margin-top: 15px !important;
+                p {
+                    width: 250px;
+                    font-size: 2vw;
+                }
+            }
+        }
+        .second {
+            background-image: url("../../Images/illustration\ 2.png");
+            background-size: cover;
+            background-size: 45%;
+            background-repeat: no-repeat;
+            background-position: right bottom;
+            height: 20vh;
+        }
+    }
+}

@@ -1,0 +1,89 @@
+.close {
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    color: #ff000094;
+    opacity: 1;
+    font-size: 1.1rem;
+    &:hover {
+        color: red;
+    }
+}
+.userData {
+    h2 {
+        text-align: center;
+    }
+    .coll {
+        border-right: solid 1px #cfcfcf;
+    }
+    .amount-balance {
+        span {
+            font-size: 3rem;
+            color: #000;
+            &:nth-child(2) {
+                color: green;
+                font-weight: bolder;
+            }
+        }
+    }
+    table {
+        font-size: 1.2rem;
+        .bold {
+            font-weight: 600;
+            // text-transform: capitalize;
+        }
+        tr {
+            td {
+                border: none;
+            }
+        }
+    }
+    .add-fund {
+        width: 100%;
+        min-height: 200px;
+        border-radius: 40px;
+        background: aliceblue;
+        padding: 30px;
+        margin: 10px;
+        .title {
+            // text-align: center;
+            font-size: 2rem;
+        }
+        .input-fied {
+            position: relative;
+            padding: 1.5rem;
+            // label {
+            //     position: absolute;
+            //     font-size: 1rem;
+            //     display: flex;
+            //     top: 30px;
+            //     left: 36px;
+            // }
+            input {
+                width: 70%;
+                height: 40px;
+                border-radius: 10px;
+                padding: 0 15px;
+                border: solid 1px #cfcfcf;
+            }
+        }
+    }
+    .fund-btn {
+        display: flex;
+        justify-content: space-around;
+        button {
+            font-size: 1rem !important;
+            border-radius: 40px;
+            background: #011792;
+            font-weight: 700;
+        }
+    }
+    .danger {
+        button {
+            background: red;
+        }
+    }
+    .warning {
+        background: #e8ae00 !important;
+    }
+}

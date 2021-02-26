@@ -1,0 +1,327 @@
+$primary-font: "Nunito Sans", sans-serif;
+
+.Login-Page,
+.register {
+    background-color: #ffffff;
+
+    p,
+    button,
+    span {
+        font-family: $primary-font;
+    }
+
+    .login-left {
+        background-image: url(../../Images/login-bg.svg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .form-holder {
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-logo {
+        margin: 0 auto;
+        max-width: 140px;
+    }
+
+    .form-inner {
+        max-width: 500px;
+        margin: 50px auto 0 auto;
+    }
+    .md-form input:not(.browser-default),
+    .md-form textarea:not(.browser-default) {
+        border-color: #dddddd;
+        margin-left: 0;
+        padding-left: 2.5em;
+        padding-bottom: 15px;
+    }
+
+    .md-form textarea:not(.browser-default) {
+        height: 100px;
+        resize: none;
+    }
+
+    .md-form .prefix {
+        font-size: 24px;
+        top: 8px;
+    }
+
+    .reset-form {
+        button {
+            float: right;
+            margin: 0;
+        }
+        .inputs {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
+    .login-right {
+        .text-center {
+            span {
+                font-size: 15px;
+                margin: 0;
+                top: -16px;
+                position: relative;
+                text-decoration: underline;
+                color: #253769;
+            }
+        }
+        button {
+            margin: 0;
+            width: 100%;
+            padding: 15px 10px;
+            border-radius: 25px;
+            font-size: 18px;
+            text-transform: capitalize;
+        }
+        .Domain-Input {
+            width: 60%;
+        }
+        .icon-position1 {
+            position: absolute;
+            top: 34px;
+            right: 80px;
+            font-size: 20px;
+        }
+    }
+
+    .action-button {
+        position: absolute;
+        right: 0;
+        top: 40%;
+        transform: translateY(-40%);
+
+        button {
+            display: block;
+            margin: 0;
+            box-shadow: none;
+            min-width: 140px;
+            font-size: 18px;
+            text-transform: capitalize;
+            border-top-left-radius: 15px;
+            border-bottom-left-radius: 15px;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            background-color: transparent !important;
+            padding: 20px 0;
+            color: #fff;
+            font-weight: 500;
+            &.active-btn {
+                background-color: #ffffff !important;
+                color: #306257;
+            }
+
+            &.btn-default:hover {
+                background-color: transparent !important;
+                box-shadow: none;
+            }
+
+            &.active-btn:hover {
+                background-color: #ffffff !important;
+                color: #306257;
+            }
+        }
+    }
+
+    .form-holder-inner {
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        width: calc(100% - 30px);
+    }
+    .login-copyright {
+        position: absolute;
+        bottom: 0;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: normal;
+        margin: 20px;
+    }
+    .end-design {
+        border-bottom: 1px solid #dddddd;
+        margin-top: 50px;
+        position: relative;
+
+        span:after {
+            position: absolute;
+            width: 18px;
+            height: 18px;
+            border-radius: 100%;
+            background-color: #fff;
+            border: 3px solid #3f51b5;
+            content: "";
+            top: -9px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        span:before {
+            position: absolute;
+            width: 24px;
+            height: 24px;
+            border-radius: 100%;
+            background-color: transparent;
+            border: 3px solid #ffffff;
+            content: "";
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    }
+
+    .google-signin {
+        clear: both;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        .yellow {
+            background-color: #fdc535 !important;
+        }
+        a {
+            color: #7a7c7e;
+            font-weight: bold;
+
+            span {
+                margin-bottom: 0;
+            }
+
+            img {
+                padding-right: 10px;
+            }
+        }
+    }
+    .login-links {
+        position: absolute;
+        bottom: 0;
+        padding-bottom: 15px;
+
+        a {
+            display: inline-flex;
+            padding: 0 10px;
+            margin: 5px 0;
+            font-weight: 500;
+            border-right: 1px solid #ddd;
+            color: #333333;
+
+            &:last-child {
+                border-right: none;
+            }
+
+            &:hover {
+                color: #e2990f;
+            }
+        }
+    }
+}
+.login-error {
+    width: 500px;
+    float: right;
+    margin-top: 30px;
+}
+.input-wrapper {
+    .error {
+        border: solid 1px red;
+    }
+    position: relative;
+    span {
+        position: absolute;
+        font-size: 30px;
+        right: 10px;
+        color: green;
+    }
+    label {
+        margin-left: 10px;
+        margin-bottom: 0;
+    }
+    small {
+        color: red;
+        position: relative;
+        top: -15px;
+    }
+    input {
+        margin-left: 0;
+        padding: 10px;
+        padding-bottom: 15px;
+        position: relative;
+        width: 100%;
+        border: solid 1px #6b6b6b;
+        margin-top: 0;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    select {
+        padding: 10px;
+        border: solid 1px #6b6b6b;
+        border-radius: 5px;
+        margin-bottom: 1rem;
+        padding-bottom: 15px;
+        height: 51px;
+        color: #000;
+    }
+}
+
+.register {
+    .domain-link {
+        .form-group {
+            .form-control {
+                padding-right: 60px;
+                max-width: calc(100% - 95px);
+            }
+        }
+    }
+    .domain-suffix {
+        font-size: 14px;
+        display: inline-flex;
+        height: 45.39px;
+        line-height: 45.39px;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+        width: 60px;
+        padding: 0 6px;
+        color: #495057;
+    }
+}
+
+//Contact Page
+.contact-page {
+    .login-left {
+        background-image: url(../../Images/contact-us.svg);
+    }
+}
+
+@media (max-width: 1366px) {
+    .register {
+        .form-inner {
+            max-width: 100%;
+            padding: 0 20px;
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .Login-Page,
+    .register {
+        .login-copyright {
+            font-size: 12px;
+        }
+    }
+}
+
+@media (min-width: 1024px) {
+    .register {
+        .form-inner {
+            max-width: 800px;
+        }
+    }
+}
