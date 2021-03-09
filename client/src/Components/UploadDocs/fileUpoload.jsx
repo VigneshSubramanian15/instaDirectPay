@@ -5,6 +5,7 @@ import { Container } from "shards-react";
 import { MDBAlert } from "mdbreact";
 export default function FileUpoload({ apiName, name, state, setdocuments }) {
     const [showError, setShowError] = useState(false);
+    const [errorMessage, setErrorMessage] = useState("");
     const dropHandler = (files) => {
         let formData = new FormData();
         let userId = JSON.parse(sessionStorage.getItem("userData")).userId;
@@ -23,23 +24,20 @@ export default function FileUpoload({ apiName, name, state, setdocuments }) {
                 }
             })
             .catch((err) => {
+                setErrorMessage(err.response.data);
                 setShowError(true);
                 setTimeout(() => {
                     setShowError(false);
-                }, 2000);
+                }, 4000);
             });
     };
     return (
         <Container>
-            {showError && (
-                <MDBAlert color="danger">
-                    A simple success alert—check it out!
-                </MDBAlert>
-            )}
+            {showError && <MDBAlert color="danger">{errorMessage}</MDBAlert>}
             {!state ? (
                 <Dropzone
                     multiple={false}
-                    accept={[".jpg", ".png", ".jpeg", ".mkv", ".pdf"]}
+                    accept={[".jpg", ".png", ".jpeg", ".pdf"]}
                     onDrop={dropHandler}
                     maxSizeBytes={2000000}
                 >

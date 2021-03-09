@@ -16,13 +16,13 @@ export default function CardStatus() {
                 >
                     <Card>
                         <div className="content-card">
-                            <h1>Gold</h1>
-                            <div className="amt">2,000 USD</div>
+                            <h1>Pawns</h1>
+                            <div className="amt">5,000 USD</div>
                             <small>
                                 This card is worldwide acceptable with all the
                                 World Rookie VisaCard Perks
                             </small>
-                            <strong>USD 100 per day Withdrawal</strong>
+                            <strong>USD 500 per day Withdrawal</strong>
                             <div className="bold">Till 10,000 USD</div>
                             <small>
                                 To get world Rookie Visacard you have to pay
@@ -42,17 +42,17 @@ export default function CardStatus() {
                 >
                     <Card>
                         <div className="content-card">
-                            <h1>Silver</h1>
-                            <div className="amt">4,000 USD</div>
+                            <h1>Bishops</h1>
+                            <div className="amt">10,000 USD</div>
                             <small>
                                 This card is worldwide acceptable with all the
                                 World Rookie VisaCard Perks
                             </small>
-                            <strong>USD 200 per day Withdrawal</strong>
+                            <strong>USD 1000 per day Withdrawal</strong>
                             <div className="bold">Till 20,000 USD</div>
                             <small>
                                 To get world Rookie Visacard you have to pay
-                                2,000 USD .
+                                1,000 USD .
                             </small>
                             <button>Continue </button>
                         </div>
@@ -68,13 +68,13 @@ export default function CardStatus() {
                 >
                     <Card>
                         <div className="content-card">
-                            <h1>Platinum </h1>
+                            <h1>Queen </h1>
                             <div className="amt">1 BTC</div>
                             <small>
                                 This card is worldwide acceptable with all the
                                 World Rookie VisaCard Perks
                             </small>
-                            <strong>USD 1000 per day Withdrawal</strong>
+                            <strong>USD 10,000 per day Withdrawal</strong>
                             <div className="bold">No Limit Withdrawal</div>
                             <small>
                                 To get world Rookie Visacard you have to pay 1
@@ -94,7 +94,7 @@ export default function CardStatus() {
                 >
                     <Card>
                         <div className="content-card">
-                            <h1>Bronze </h1>
+                            <h1>King </h1>
                             <div className="amt">2 BTC</div>
                             <small>
                                 This card is worldwide acceptable with all the

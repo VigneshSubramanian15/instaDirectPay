@@ -7,7 +7,7 @@ export default function AccountInfo({ userdata }) {
             <Col sm={12} md={6} lg={6}>
                 <div className="user-info">
                     <h3>User Information</h3>
-                    <table className="table table-bordered">
+                    <table className="table ">
                         <tr>
                             <td>First Name</td>
                             <td>{userdata.first_name}</td>
@@ -34,7 +34,7 @@ export default function AccountInfo({ userdata }) {
             <Col sm={12} md={5} lg={5}>
                 <div className="user-info">
                     <h3>Account Information</h3>
-                    <table className="table table-bordered">
+                    <table className="table">
                         <tr>
                             <td>Account Number</td>
                             <td>

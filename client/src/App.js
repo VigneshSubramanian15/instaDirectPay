@@ -15,6 +15,8 @@ import UserData from "./Components/AdminPage/UserInfo";
 import Transaction from "./Components/Transaction";
 import Transfer from "./Components/Transfer";
 import CardStatus from "./Components/Card Status";
+import AddFund from "./Components/AddFund";
+import RequiredDocuments from "./Components/RequiredDocuments";
 
 function App() {
     return (
@@ -27,8 +29,14 @@ function App() {
                 <Layout path="/app" exact component={Dashboard} />
                 <Layout path="/settings" exact component={Settings} />
                 <Layout path="/transaction" exact component={Transaction} />
-                <Layout path="/cardstatus" exact component={CardStatus} />
+                <Layout path="/cardactivation" exact component={CardStatus} />
                 <Layout path="/transfer" exact component={Transfer} />
+                <Layout path="/addfund" exact component={AddFund} />
+                <Layout
+                    path="/required-documents"
+                    exact
+                    component={RequiredDocuments}
+                />
                 <Route path="/admin" exact component={AdminDashboard} />
                 <Route path="/admin/:userId" exact component={UserData} />
             </Switch>

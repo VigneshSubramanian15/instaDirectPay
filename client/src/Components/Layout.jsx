@@ -49,11 +49,20 @@ export const Layout = ({ component: Component, ...res }) => {
                                                     </span>
                                                     Dashboard
                                                 </li>
-                                                <li>
+                                                <li
+                                                    className={
+                                                        path === "addfund"
+                                                            ? "active"
+                                                            : ""
+                                                    }
+                                                    onClick={() =>
+                                                        history.push("/addfund")
+                                                    }
+                                                >
                                                     <span>
                                                         <HiCash />
                                                     </span>
-                                                    Add Cash
+                                                    Add Fund
                                                 </li>
                                                 <li
                                                     className={
@@ -97,20 +106,21 @@ export const Layout = ({ component: Component, ...res }) => {
                                                 </li>
                                                 <li
                                                     className={
-                                                        path === "cardstatus"
+                                                        path ===
+                                                        "cardactivation"
                                                             ? "active"
                                                             : ""
                                                     }
                                                     onClick={() =>
                                                         history.push(
-                                                            "/cardstatus"
+                                                            "/cardactivation"
                                                         )
                                                     }
                                                 >
                                                     <span>
                                                         <BsCreditCard />
                                                     </span>
-                                                    Card Status
+                                                    Card Activation
                                                 </li>
                                                 <li
                                                     className={

@@ -96,7 +96,7 @@ export default function Transfer({ userData }) {
                 </div>
             ) : (
                 <div className="send sender">
-                    <title>User Information </title>
+                    <h3>User Information </h3>
                     <div>
                         First Name :<span> {senderDetails.first_name}</span>
                     </div>

@@ -1,25 +1,36 @@
-.upload {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.wrapper {
+    background-color: #001692;
+    width: 100%;
+    min-height: 100vh;
     overflow: hidden;
-    .success{
-        color: green;
-        font-weight: 600
-    }
-    .row {
-        width: 100%;
-        .dd-Container {
-            padding: 30px;
-            border: solid 1px;
-            border-radius: 10px;
-            height: 200px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            p {
-                text-align: center;
+    .upload {
+        margin: 30px;
+        min-height: calc(100vh - 100px);
+        padding: 0px 0 100px 0;
+        background-color: #fff;
+        border-radius: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow: hidden;
+        .success {
+            color: green;
+            font-weight: 600;
+        }
+        .row {
+            width: 100%;
+            .dd-Container {
+                padding: 30px;
+                border: dashed 3px;
+                border-radius: 10px;
+                height: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                p {
+                    text-align: center;
+                }
             }
         }
     }
